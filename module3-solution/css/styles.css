@@ -1,0 +1,57 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color: #F9B79F;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #929494;
+  border-radius: 0;
+  border: 10px;
+}
+.navbar-brand {
+  padding-top: 20px;
+}
+.navbar-brand h1 { /* food LLC */
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* END HEADER */
+
+#menu-categories{
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+}
+#menu-categories .section{
+  border: 2px solid black;
+  margin-bottom: 15px;
+  padding: 0 20px 20px 20px;
+  background-color: #F98E8A;
+  color: black;
+}
+body > h2{
+color: white;
+}
+
